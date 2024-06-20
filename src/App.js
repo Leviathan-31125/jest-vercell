@@ -24,7 +24,7 @@ function App() {
         
         <h1 data-testid="count">{count}</h1>
         <p>
-          Counting App made by Al - Hadar
+          Counting App made by Alfikiyar Tirta Haidar
         </p>
         <div className='inline-button'>
           <button onClick={increment}>Increment, Cuy</button>
