@@ -3,30 +3,28 @@ import './App.css';
 import { useState } from 'react';
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
   const increment = () => {
-    setCount(count+1);
-  }
+    setCount(count + 1);
+  };
 
   const decrement = () => {
-    setCount(count-1);
-  }
+    setCount(count - 1);
+  };
 
   const restart = () => {
     setCount(0);
-  }
+  };
 
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        
+
         <h1 data-testid="count">{count}</h1>
-        <p>
-          Counting App made by Alfikiyar Tirta Haidar
-        </p>
-        <div className='inline-button'>
+        <p>Counting App made by Alfikiyar Tirta Haidar</p>
+        <div className="inline-button">
           <button onClick={increment}>Increment, Cuy</button>
           <button onClick={restart}>Restart</button>
           <button onClick={decrement}>Decrement, Skuy</button>
@@ -37,8 +35,7 @@ function App() {
             className="App-link"
             href="https://galvanic-tea-401809.et.r.appspot.com/"
             target="_blank"
-            rel="noopener noreferrer"
-          >
+            rel="noopener noreferrer">
             Sambang yuk
           </a>
         </p>

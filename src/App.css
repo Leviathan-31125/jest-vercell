@@ -1,4 +1,4 @@
-h1{
+h1 {
   margin: 0;
 }
 
@@ -60,7 +60,7 @@ h1{
   margin-bottom: 10px;
 }
 
-.inline-button button:hover{
+.inline-button button:hover {
   background-color: #00c8ff;
   color: white;
 }
